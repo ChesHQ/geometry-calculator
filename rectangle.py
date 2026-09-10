@@ -1,4 +1,3 @@
-python
 class Rectangle:
   def init (self, width: float,height: float):
     if width <= 0 or height <= 0:
