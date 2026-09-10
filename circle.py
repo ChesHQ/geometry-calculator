@@ -1,7 +1,7 @@
 import math
 
 class Circle:
-  def init (self, radius: float):
+  def __init__(self, radius: float):
     if radius <= 0:
       raise ValueError("Радиус должен быть положительным")
     self.radius = radius
