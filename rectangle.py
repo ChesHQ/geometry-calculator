@@ -1,5 +1,5 @@
 class Rectangle:
-  def init (self, width: float,height: float):
+  def __init__(self, width: float,height: float):
     if width <= 0 or height <= 0:
       raise ValueError("Стороны должны быть положительными")
     self.width = width
